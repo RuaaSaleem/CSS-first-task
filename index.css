@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.clr{
+    clear: both;
+}
+.navBar{
+    background-color: black;
+    height: 50px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.logoImg{
+    float: left;
+    
+}
+.logoImg img{
+    width: 50%;
+    margin-top: 15px;
+}
+.navBar .list{
+    float: right;
+
+}
+.navBar .list li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-family: 'Caveat', cursive;
+}
+
+.navBar .list li a{
+    text-decoration:  none;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2{
+   text-transform: uppercase;
+   font-size: 35px;
+   font-family: 'Nunito', sans-serif;
+}
+.serviceSection{
+    text-align: center;
+    margin-top: 100px;
+}
+ .prief{
+    font-style: italic;
+    font-size:17px;
+    color: gray;
+}
+.serviceSection .ServiceItem{
+    margin-top: 60px ;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  
+   
+}
+.serviceSection .Icon{
+    width: 80px;
+    height:80px;
+    padding: 15px;
+    background-color: #ffc800;
+    color: white;
+    border-radius: 50%;
+  
+}
+ h3{
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+}
+.serviceSection .ServiceItem p{
+    width: 95%;
+   
+}
+
+.portfolioSection {
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(245, 245, 220, 0.696);
+    padding-bottom: 50px;
+   
+}
+.portfolioSection h2{
+    padding-top: 50px;
+}
+.portfolioSection .portfolioItem{
+    float: left;
+    width: 33.33%;
+    margin-top: 30px;
+    
+  
+}
+.portfolioSection .portfolioItem img{
+    width: 100%;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.portfolioSection .portfolioItem .innerItem{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.845);
+    padding-bottom: 20px;
+}
+.teamSection{
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+ .teamSection .teamItem {
+    float: left;
+    width: 33.33%;
+    margin-top: 50px;
+}
+.teamItem img{
+    width: 70%;
+    border-radius: 50%;
+    border: 8px solid rgb(203, 203, 203);
+}
+.teamItem h4{
+margin-top: 20px;
+}
+.teamItem p{
+    color: gray;
+}
+.teamItem .socialmedia .socialIcon1{
+    margin-top: 40px;
+    width:50px;
+    height: 50px;
+    background-color: rgba(193, 193, 193, 0.829);
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    margin-left: 30px;
+   
+}
+.teamItem .socialmedia .socialIcon{
+   width: 50px;
+   height: 50px;
+   padding: 10px;
+   
+}
+.teamSection .prief{
+    color: gray;
+    font-size: 20px;
+    width: 70%;
+    margin: 30px auto;
+    font-style: normal;
+
+}
